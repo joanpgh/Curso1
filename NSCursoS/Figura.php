@@ -107,6 +107,7 @@ abstract class Figura
 
     public function distancia(Figura $f)
     {
+        //
         return $this->_origen->distancia($f->getOrigen());
     }
 }
